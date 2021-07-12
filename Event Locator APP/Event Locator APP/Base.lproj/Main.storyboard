@@ -103,23 +103,41 @@
             </objects>
             <point key="canvasLocation" x="2090" y="-2385"/>
         </scene>
-        <!--View Controller-->
+        <!--Photo-Map-Pin-->
         <scene sceneID="TnT-R1-dp3">
             <objects>
                 <viewController id="IGL-eG-6sm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="187-pP-zKB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4u-2O-QvL">
+                                <rect key="frame" x="132" y="360" width="150" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button2 to test Segue"/>
+                                <connections>
+                                    <segue destination="j6r-BW-LA0" kind="show" id="YSL-0f-AzE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwI-VZ-agx">
+                                <rect key="frame" x="132" y="528" width="141" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button to test Segue"/>
+                                <connections>
+                                    <segue destination="jsq-GL-t4U" kind="show" id="Aoo-Uq-vMY"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Zwb-G7-WBC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="daz-0f-8HP"/>
+                    <navigationItem key="navigationItem" title="Photo-Map-Pin" id="daz-0f-8HP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6wJ-D5-Ii7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4820" y="-1590"/>
+            <point key="canvasLocation" x="4819" y="-1585"/>
         </scene>
-        <!--View Controller-->
+        <!--Location Tag-->
         <scene sceneID="e04-Xs-2za">
             <objects>
                 <viewController id="jsq-GL-t4U" sceneMemberID="viewController">
@@ -148,7 +166,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="99" height="92"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Poesia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABL-6l-tR4">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Poesia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABL-6l-tR4">
                                                     <rect key="frame" x="107" y="11" width="61" height="24"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
@@ -171,10 +189,11 @@
                         <viewLayoutGuide key="safeArea" id="ZxM-5h-jzJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Location Tag" id="KXK-v0-jzF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TBk-8f-P5c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5711.594202898551" y="-1585.0446428571429"/>
+            <point key="canvasLocation" x="5712" y="-1569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IaU-qz-qrs">
@@ -186,12 +205,13 @@
                         <viewLayoutGuide key="safeArea" id="o30-Ba-7s7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dxB-7d-4gF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1g7-oK-8Wk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4819" y="-2385"/>
+            <point key="canvasLocation" x="5712" y="-2345"/>
         </scene>
-        <!--View Controller-->
+        <!--Group Chat-->
         <scene sceneID="bJW-Z5-V4l">
             <objects>
                 <viewController id="UCY-KF-uDS" sceneMemberID="viewController">
@@ -265,7 +285,7 @@
                         <viewLayoutGuide key="safeArea" id="GiK-Yz-SFr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="3fp-V3-AUp"/>
+                    <navigationItem key="navigationItem" title="Group Chat" id="3fp-V3-AUp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MTf-qS-RTd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -316,7 +336,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abenezer Molla" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3YQ-90-nch">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abenezer Molla" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3YQ-90-nch">
                                                     <rect key="frame" x="0.0" y="0.0" width="124" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
@@ -349,7 +369,7 @@
             </objects>
             <point key="canvasLocation" x="1016" y="100"/>
         </scene>
-        <!--View Controller-->
+        <!--Post Page-->
         <scene sceneID="ppH-ga-Ajx">
             <objects>
                 <viewController id="A5i-Si-0KD" sceneMemberID="viewController">
@@ -376,7 +396,7 @@
                         <viewLayoutGuide key="safeArea" id="YzY-gS-fMM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="r5s-Ba-EUV">
+                    <navigationItem key="navigationItem" title="Post Page" id="r5s-Ba-EUV">
                         <barButtonItem key="leftBarButtonItem" title="Cancle" id="YZG-pT-i9i"/>
                         <barButtonItem key="rightBarButtonItem" title="Share" id="aHg-ZY-tcM"/>
                     </navigationItem>
@@ -385,11 +405,11 @@
             </objects>
             <point key="canvasLocation" x="3109" y="100"/>
         </scene>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="8gU-TL-S6W">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qxz-zE-cPh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="1Gp-L9-8TM"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" selectedImage="house" id="1Gp-L9-8TM"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Y19-lh-3hn">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -422,11 +442,11 @@
             </objects>
             <point key="canvasLocation" x="2041" y="100"/>
         </scene>
-        <!--Item-->
+        <!--Discussion-->
         <scene sceneID="SOt-7j-sUv">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="74o-96-UWe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Mu6-dG-8vH"/>
+                    <tabBarItem key="tabBarItem" title="Discussion" image="message.fill" catalog="system" selectedImage="message.fill" id="Mu6-dG-8vH"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fVe-I6-Thc">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -441,11 +461,11 @@
             </objects>
             <point key="canvasLocation" x="2041" y="-837"/>
         </scene>
-        <!--Item-->
+        <!--Map-->
         <scene sceneID="aUY-y7-AUM">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B4c-C9-h6u" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="oJO-Ym-LZY"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="mappin" catalog="system" selectedImage="location.viewfinder" id="oJO-Ym-LZY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9B1-qU-10B">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -463,6 +483,11 @@
     </scenes>
     <resources>
         <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="location.viewfinder" catalog="system" width="128" height="115"/>
+        <image name="mappin" catalog="system" width="105" height="128"/>
+        <image name="message.fill" catalog="system" width="128" height="113"/>
         <image name="photo" catalog="system" width="128" height="93"/>
         <image name="photo.fill" catalog="system" width="128" height="93"/>
         <image name="square.and.pencil" catalog="system" width="128" height="115"/>
