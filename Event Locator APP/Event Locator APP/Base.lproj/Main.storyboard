@@ -203,21 +203,27 @@
             </objects>
             <point key="canvasLocation" x="5711.594202898551" y="-1569.6428571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Full Photo View-->
         <scene sceneID="IaU-qz-qrs">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="j6r-BW-LA0" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RO1-8s-YNg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="photo.on.rectangle.angled" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="EFl-Pb-QsG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="o30-Ba-7s7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="dxB-7d-4gF"/>
+                    <navigationItem key="navigationItem" title="Full Photo View" id="dxB-7d-4gF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1g7-oK-8Wk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5712" y="-2345"/>
+            <point key="canvasLocation" x="5711.594202898551" y="-2345.7589285714284"/>
         </scene>
         <!--Group Chat-->
         <scene sceneID="bJW-Z5-V4l">
@@ -526,6 +532,7 @@
         <image name="message.fill" catalog="system" width="128" height="113"/>
         <image name="photo" catalog="system" width="128" height="93"/>
         <image name="photo.fill" catalog="system" width="128" height="93"/>
+        <image name="photo.on.rectangle.angled" catalog="system" width="128" height="101"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <image name="text.below.photo.rtl" catalog="system" width="117" height="128"/>
