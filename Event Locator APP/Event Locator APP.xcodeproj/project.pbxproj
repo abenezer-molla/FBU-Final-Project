@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		29A117D9269CE9B700702878 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A117D8269CE9B700702878 /* AppDelegate.m */; };
 		29A117DC269CE9B700702878 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A117DB269CE9B700702878 /* SceneDelegate.m */; };
-		29A117DF269CE9B700702878 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A117DE269CE9B700702878 /* ViewController.m */; };
 		29A117E2269CE9B700702878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A117E0269CE9B700702878 /* Main.storyboard */; };
 		29A117E4269CE9B800702878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A117E3269CE9B800702878 /* Assets.xcassets */; };
 		29A117E7269CE9B800702878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A117E5269CE9B800702878 /* LaunchScreen.storyboard */; };
 		29A117EA269CE9B800702878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A117E9269CE9B800702878 /* main.m */; };
 		29A117F4269CE9B800702878 /* Event_Locator_APPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A117F3269CE9B800702878 /* Event_Locator_APPTests.m */; };
 		29A117FF269CE9B800702878 /* Event_Locator_APPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A117FE269CE9B800702878 /* Event_Locator_APPUITests.m */; };
+		29A11811269E17C900702878 /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A11810269E17C900702878 /* FeedCell.m */; };
+		29A11817269E188100702878 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A11816269E188000702878 /* FeedViewController.m */; };
+		29A1181A269E1C5900702878 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A11819269E1C5900702878 /* ChatViewController.m */; };
+		29A11820269E1CA900702878 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A1181F269E1CA900702878 /* ChatCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +44,6 @@
 		29A117D8269CE9B700702878 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		29A117DA269CE9B700702878 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		29A117DB269CE9B700702878 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		29A117DD269CE9B700702878 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		29A117DE269CE9B700702878 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		29A117E1269CE9B700702878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29A117E3269CE9B800702878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29A117E6269CE9B800702878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,14 @@
 		29A117FA269CE9B800702878 /* Event Locator APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Event Locator APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A117FE269CE9B800702878 /* Event_Locator_APPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Event_Locator_APPUITests.m; sourceTree = "<group>"; };
 		29A11800269CE9B800702878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A1180F269E17C900702878 /* FeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
+		29A11810269E17C900702878 /* FeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
+		29A11815269E188000702878 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		29A11816269E188000702878 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		29A11818269E1C5900702878 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		29A11819269E1C5900702878 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		29A1181E269E1CA900702878 /* ChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		29A1181F269E1CA900702878 /* ChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +117,19 @@
 				29A117D8269CE9B700702878 /* AppDelegate.m */,
 				29A117DA269CE9B700702878 /* SceneDelegate.h */,
 				29A117DB269CE9B700702878 /* SceneDelegate.m */,
-				29A117DD269CE9B700702878 /* ViewController.h */,
-				29A117DE269CE9B700702878 /* ViewController.m */,
 				29A117E0269CE9B700702878 /* Main.storyboard */,
 				29A117E3269CE9B800702878 /* Assets.xcassets */,
 				29A117E5269CE9B800702878 /* LaunchScreen.storyboard */,
 				29A117E8269CE9B800702878 /* Info.plist */,
 				29A117E9269CE9B800702878 /* main.m */,
+				29A1180F269E17C900702878 /* FeedCell.h */,
+				29A11810269E17C900702878 /* FeedCell.m */,
+				29A11815269E188000702878 /* FeedViewController.h */,
+				29A11816269E188000702878 /* FeedViewController.m */,
+				29A11818269E1C5900702878 /* ChatViewController.h */,
+				29A11819269E1C5900702878 /* ChatViewController.m */,
+				29A1181E269E1CA900702878 /* ChatCell.h */,
+				29A1181F269E1CA900702878 /* ChatCell.m */,
 			);
 			path = "Event Locator APP";
 			sourceTree = "<group>";
@@ -266,7 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29A117DF269CE9B700702878 /* ViewController.m in Sources */,
+				29A11811269E17C900702878 /* FeedCell.m in Sources */,
+				29A11820269E1CA900702878 /* ChatCell.m in Sources */,
+				29A11817269E188100702878 /* FeedViewController.m in Sources */,
+				29A1181A269E1C5900702878 /* ChatViewController.m in Sources */,
 				29A117D9269CE9B700702878 /* AppDelegate.m in Sources */,
 				29A117EA269CE9B800702878 /* main.m in Sources */,
 				29A117DC269CE9B700702878 /* SceneDelegate.m in Sources */,
