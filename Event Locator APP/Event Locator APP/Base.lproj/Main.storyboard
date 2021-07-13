@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GzV-B2-wt3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -68,6 +68,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <segue destination="GzV-B2-wt3" kind="presentation" id="kUh-aU-EfB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gz0-NF-e8i">
                                 <rect key="frame" x="273" y="669" width="73" height="38"/>
@@ -87,7 +90,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="1fw-vu-z52">
             <objects>
-                <tabBarController id="GzV-B2-wt3" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="fullScreen" id="GzV-B2-wt3" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Tts-h6-6B1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -106,7 +109,7 @@
         <!--Photo-Map-Pin-->
         <scene sceneID="TnT-R1-dp3">
             <objects>
-                <viewController id="IGL-eG-6sm" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="IGL-eG-6sm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="187-pP-zKB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +143,7 @@
         <!--Location Tag-->
         <scene sceneID="e04-Xs-2za">
             <objects>
-                <viewController id="jsq-GL-t4U" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="jsq-GL-t4U" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="13T-sG-K1p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -203,7 +206,7 @@
         <!--View Controller-->
         <scene sceneID="IaU-qz-qrs">
             <objects>
-                <viewController id="j6r-BW-LA0" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="j6r-BW-LA0" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RO1-8s-YNg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -219,7 +222,7 @@
         <!--Group Chat-->
         <scene sceneID="bJW-Z5-V4l">
             <objects>
-                <viewController id="UCY-KF-uDS" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="UCY-KF-uDS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H4P-bO-zfr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -299,7 +302,7 @@
         <!--Feed-->
         <scene sceneID="Tg2-do-lSc">
             <objects>
-                <viewController id="doK-rm-WGX" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="doK-rm-WGX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e2r-gH-3gx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -405,7 +408,7 @@
         <!--Post Page-->
         <scene sceneID="ppH-ga-Ajx">
             <objects>
-                <viewController id="A5i-Si-0KD" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="A5i-Si-0KD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="REM-41-bFO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
